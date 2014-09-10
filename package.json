@@ -1,0 +1,49 @@
+{
+  "name": "esnextify",
+  "version": "0.1.0",
+  "description": "Transform next-generation JavaScript to today's JavaScript",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/Meesayen/esnextify"
+  },
+  "author": {
+    "name": "Federico Giovagnoli",
+    "email": "gvg.fede@gmail.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "files": [
+    "index.js"
+  ],
+  "keywords": [
+    "esnext",
+    "rewriting",
+    "transform",
+    "browserify",
+    "preprocessor",
+    "syntax",
+    "codegen",
+    "desugaring",
+    "javascript",
+    "ecmascript",
+    "language",
+    "es5",
+    "es6",
+    "ES.next",
+    "harmony",
+    "compiler",
+    "transpiler"
+  ],
+  "dependencies": {
+    "esnext": "^0.10.0",
+    "through": "~2.3.4",
+    "es6-module-transpiler": "git+https://git@github.com/Meesayen/es6-module-transpiler.git#esnextify-dep"
+  },
+  "readmeFilename": "readme.md",
+  "bugs": {
+    "url": "https://github.com/Meesayen/esnextify/issues"
+  },
+  "homepage": "https://github.com/Meesayen/esnextify"
+}
