@@ -39,7 +39,7 @@
   "dependencies": {
     "esnext": "^0.11.1",
     "through": "~2.3.4",
-    "es6-module-transpiler": "git+https://git@github.com/Meesayen/es6-module-transpiler.git#esnextify-dep"
+    "es6-module-transpiler": "Meesayen/es6-module-transpiler.git#esnextify-dep"
   },
   "readmeFilename": "readme.md",
   "bugs": {
