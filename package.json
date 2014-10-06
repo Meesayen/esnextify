@@ -1,6 +1,6 @@
 {
   "name": "esnextify",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "description": "Transform next-generation JavaScript to today's JavaScript",
   "license": "MIT",
   "repository": {
