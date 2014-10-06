@@ -10,3 +10,4 @@ deploy:
   on:
     tags: true
     repo: Meesayen/esnextify
+    all_branches: true
