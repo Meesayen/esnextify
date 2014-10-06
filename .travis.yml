@@ -1,0 +1,8 @@
+deploy:
+  provider: npm
+  email: gvg.fede@gmail.com
+  api_key:
+    secure: l0Pkp7IAHsutaXzT6uh5DS/sFuwEYBeWBX9RHEKqBk3dFT2KTuYoRFeRyXMw7PksjepzX6XpEt0EGOcn8avE3WhImzQp2SxrS/uaUKbYax/D6VGq/Dc2qSspo3raIk0AHRbfhQCNO4vx6rf417d3dt411IfdVLACIm+6pbVpRhc=
+  on:
+    tags: true
+    repo: Meesayen/esnextify
