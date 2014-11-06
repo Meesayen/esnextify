@@ -30,12 +30,12 @@ function compile(file, content) {
   return processed;
 }
 
-function isEsNext (file) {
-  return /\.es6$/.test(file);
+function isEsNext (file, ext) {
+  return (new RegExp(ext.replace('.', '\\.') + '$')).test(file);
 }
 
-module.exports = function (file) {
-  if (!isEsNext(file)) {
+module.exports = function (file, opts) {
+  if (!isEsNext(file, opts && opts.fileExt || '.es6')) {
     return through();
   }
   var data = '';
